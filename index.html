@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hotel Ristorante Mira — Sestri Levante, Liguria</title>
+<meta name="description" content="Hotel Ristorante Mira: tre stelle a gestione familiare sulla passeggiata a mare di Sestri Levante, di fronte alla Baia di Ponente, con vista sul Golfo del Tigullio e su Portofino." />
+<meta name="theme-color" content="#15262B" />
+<link rel="icon" href="assets/favicon.png" type="image/png" />
+<link rel="apple-touch-icon" href="assets/favicon.png" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Hotel Ristorante Mira — Sestri Levante" />
+<meta property="og:description" content="Il mare della Liguria, da generazioni. Albergo e ristorante sulla passeggiata di Sestri Levante." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="assets/img/sestri.jpg" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <a href="#top" class="nav__brand" aria-label="Hotel Mira — torna su">
+    <img src="assets/logo-dark.png" alt="Hotel Ristorante Mira" class="nav__logo nav__logo--dark" />
+    <img src="assets/logo-white.png" alt="Hotel Ristorante Mira" class="nav__logo nav__logo--light" />
+  </a>
+  <nav class="nav__links" aria-label="Navigazione principale">
+    <a href="#hotel">L'Albergo</a>
+    <a href="#ristorante">Il Ristorante</a>
+    <a href="#storia">La Storia</a>
+    <a href="#sestri">Sestri Levante</a>
+    <a href="#contatti">Contatti</a>
+  </nav>
+  <a href="#prenota" class="btn btn--pill nav__cta">Preventivo</a>
+  <button class="nav__burger" id="burger" aria-label="Apri il menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#hotel">L'Albergo</a>
+  <a href="#ristorante">Il Ristorante</a>
+  <a href="#storia">La Storia</a>
+  <a href="#sestri">Sestri Levante</a>
+  <a href="#contatti">Contatti</a>
+  <a href="#prenota" class="btn btn--pill">Richiedi un preventivo</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero__scene" aria-hidden="true">
+    <div class="hero__sky"></div>
+    <div class="hero__sun"></div>
+    <div class="hero__sea"></div>
+    <svg class="hero__hills" viewBox="0 0 1440 420" preserveAspectRatio="none">
+      <path class="hill hill--3" d="M0,300 C220,210 360,250 560,300 C760,348 980,250 1200,288 C1320,308 1400,300 1440,296 L1440,420 L0,420 Z"/>
+      <path class="hill hill--2" d="M0,330 C260,270 420,344 680,330 C900,318 1040,250 1240,300 C1340,324 1400,330 1440,332 L1440,420 L0,420 Z"/>
+      <path class="hill hill--1" d="M0,372 C240,340 380,388 620,372 C880,354 1080,330 1280,366 C1360,380 1420,378 1440,378 L1440,420 L0,420 Z"/>
+    </svg>
+    <svg class="hero__sail" viewBox="0 0 60 80" aria-hidden="true">
+      <path d="M30,6 L30,62 L8,62 Z" fill="#f7f1e3"/>
+      <path d="M33,22 L33,62 L52,62 Z" fill="#ece3cf"/>
+      <line x1="2" y1="62" x2="58" y2="62" stroke="#15262b" stroke-width="2"/>
+    </svg>
+    <div class="hero__grain"></div>
+  </div>
+
+  <div class="hero__inner">
+    <p class="hero__eyebrow reveal">Sestri Levante · Riviera Ligure di Levante</p>
+    <img src="assets/logo-white.png" alt="Hotel Ristorante Mira" class="hero__logo reveal" />
+    <p class="hero__stars reveal" aria-label="Albergo a tre stelle">&#10022;&nbsp;&#10022;&nbsp;&#10022;</p>
+    <h1 class="hero__title reveal">Il mare della Liguria,<br/><em>da generazioni.</em></h1>
+    <p class="hero__sub reveal">Albergo e ristorante a gestione familiare sulla passeggiata a mare,
+       di fronte alla Baia di Ponente, con lo sguardo sul Golfo del Tigullio e su Portofino.</p>
+    <div class="hero__actions reveal">
+      <a href="#prenota" class="btn btn--solid">Richiedi un preventivo</a>
+      <a href="#hotel" class="btn btn--ghost">Scopri l'hotel</a>
+    </div>
+  </div>
+
+  <a href="#intro" class="hero__scroll" aria-label="Scorri verso il basso">
+    <span>scorri</span>
+    <svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 4v15M5 13l7 7 7-7" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+</section>
+
+<!-- ============ INTRO ============ -->
+<section class="intro" id="intro">
+  <div class="intro__mark" aria-hidden="true">&#10022;</div>
+  <p class="intro__kicker reveal">Benvenuti al Mira</p>
+  <p class="intro__lead reveal">
+    A pochi metri dalla sabbia, dove il lungomare di Sestri Levante incontra la quiete della baia,
+    il <strong>Mira</strong> accoglie i suoi ospiti come una casa di famiglia&nbsp;— la stessa
+    famiglia che, da oltre un secolo, profuma queste sale di basilico, mare e ospitalità ligure.
+  </p>
+  <div class="intro__facts reveal">
+    <div class="fact"><span class="fact__num">3</span><span class="fact__lbl">stelle sul mare</span></div>
+    <div class="fact__div" aria-hidden="true"></div>
+    <div class="fact"><span class="fact__num">1923</span><span class="fact__lbl">la casa del Mira</span></div>
+    <div class="fact__div" aria-hidden="true"></div>
+    <div class="fact"><span class="fact__num">0&nbsp;m</span><span class="fact__lbl">dalla passeggiata</span></div>
+  </div>
+</section>
+
+<!-- ============ HOTEL ============ -->
+<section class="split" id="hotel">
+  <div class="split__media reveal-img">
+    <img src="assets/img/hotel.jpg" alt="Vista mattutina sul Golfo del Tigullio dall'Hotel Mira" />
+    <span class="split__tag">L'Albergo</span>
+  </div>
+  <div class="split__text">
+    <p class="sec__kicker reveal">Le camere</p>
+    <h2 class="sec__title reveal">Svegliarsi<br/>davanti al golfo</h2>
+    <p class="reveal">Le camere dell'Hotel Mira guardano il mare aperto o i tetti silenziosi del borgo.
+       Arredi sobri, luce chiara di Riviera e il rumore lieve delle onde: tutto pensato per un
+       riposo semplice e autentico, a tre stelle e a gestione diretta della famiglia.</p>
+    <ul class="feat reveal">
+      <li>Posizione fronte spiaggia, sulla passeggiata a mare</li>
+      <li>Camere vista mare e vista borgo</li>
+      <li>Colazione e accoglienza familiare</li>
+      <li>A pochi passi dalla stazione e dal centro storico</li>
+    </ul>
+    <a href="#prenota" class="link-underline reveal">Verifica disponibilità &#8594;</a>
+  </div>
+</section>
+
+<!-- ============ RISTORANTE ============ -->
+<section class="split split--reverse" id="ristorante">
+  <div class="split__media reveal-img">
+    <img src="assets/img/ristorante.jpg" alt="Tramonto sulla veranda del Ristorante Mira a Sestri Levante" />
+    <span class="split__tag split__tag--coral">Il Ristorante</span>
+  </div>
+  <div class="split__text">
+    <p class="sec__kicker reveal">La cucina di mare</p>
+    <h2 class="sec__title reveal">Il <em>cioppin</em><br/>e la tradizione</h2>
+    <p class="reveal">Nella sala dall'ampia vetrata sul lungomare si rinnova ogni giorno un rito antico:
+       il <em>cioppin</em>, la zuppa di pesce preparata secondo la ricetta tramandata da nonna Palmira.
+       Pesce sempre fresco, cucina marinara e familiare, sapori che &laquo;devono sempre sapere di mare&raquo;.</p>
+    <p class="reveal">Accanto al cioppin, le acciughe ripiene, gli spaghetti alla Mira, i corzetti e i dolci fatti
+       in casa&nbsp;— accompagnati dai vini della Riviera di Levante, scelti con cura.</p>
+    <div class="dish-row reveal" aria-hidden="true">
+      <span>Cioppin</span><span>Acciughe ripiene</span><span>Spaghetti alla Mira</span><span>Corzetti</span><span>Crostata di Ilia</span>
+    </div>
+    <a href="#contatti" class="link-underline reveal">Prenota un tavolo &#8594;</a>
+  </div>
+</section>
+
+<!-- ============ STORIA ============ -->
+<section class="storia" id="storia">
+  <div class="storia__inner">
+    <p class="sec__kicker sec__kicker--light reveal">Dal 1800 ad oggi</p>
+    <h2 class="storia__title reveal">Una storia<br/>che sa di Riviera</h2>
+    <p class="storia__body reveal">
+      Tutto comincia con una piccola osteria con cucina aperta da nonna Palmira a pochi passi
+      dal mare. Nel 1923 la famiglia acquista la casa che ancora oggi ospita il Mira; la sala,
+      ricostruita dopo i bombardamenti dell'ultima guerra, diventa il <em>sancta sanctorum</em>
+      della gastronomia sestrese. Da allora il testimone passa di generazione in generazione,
+      tra i fornelli e in sala.
+    </p>
+
+    <figure class="quote reveal">
+      <blockquote>&laquo;Da Mira si mangia sempre benissimo. Vale il viaggio.&raquo;</blockquote>
+      <figcaption>— biglietto autografo lasciato da un ospite illustre, 1988</figcaption>
+    </figure>
+
+    <p class="storia__guests-label reveal">Hanno fatto tappa al Mira</p>
+  </div>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Guglielmo Marconi</span><span class="dot">&#10022;</span>
+      <span>Marcello Mastroianni</span><span class="dot">&#10022;</span>
+      <span>Aristotele Onassis</span><span class="dot">&#10022;</span>
+      <span>Gilberto Govi</span><span class="dot">&#10022;</span>
+      <span>Paolo Conte</span><span class="dot">&#10022;</span>
+      <span>Giorgio Gaber</span><span class="dot">&#10022;</span>
+      <span>Fausto Coppi</span><span class="dot">&#10022;</span>
+      <span>Rossano Brazzi</span><span class="dot">&#10022;</span>
+      <span>Walter Chiari</span><span class="dot">&#10022;</span>
+      <span>Enzo Tortora</span><span class="dot">&#10022;</span>
+      <span>Carlo Bo</span><span class="dot">&#10022;</span>
+      <!-- duplicate for seamless loop -->
+      <span>Guglielmo Marconi</span><span class="dot">&#10022;</span>
+      <span>Marcello Mastroianni</span><span class="dot">&#10022;</span>
+      <span>Aristotele Onassis</span><span class="dot">&#10022;</span>
+      <span>Gilberto Govi</span><span class="dot">&#10022;</span>
+      <span>Paolo Conte</span><span class="dot">&#10022;</span>
+      <span>Giorgio Gaber</span><span class="dot">&#10022;</span>
+      <span>Fausto Coppi</span><span class="dot">&#10022;</span>
+      <span>Rossano Brazzi</span><span class="dot">&#10022;</span>
+      <span>Walter Chiari</span><span class="dot">&#10022;</span>
+      <span>Enzo Tortora</span><span class="dot">&#10022;</span>
+      <span>Carlo Bo</span><span class="dot">&#10022;</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SESTRI LEVANTE ============ -->
+<section class="sestri" id="sestri">
+  <div class="sestri__text">
+    <p class="sec__kicker reveal">Dove siamo</p>
+    <h2 class="sec__title reveal">Sestri Levante,<br/>la città dei due mari</h2>
+    <p class="reveal">Tra la Baia delle Favole e la Baia del Silenzio, Sestri Levante è una delle perle
+       del Tigullio. Da qui Portofino, Santa Margherita, Rapallo e le Cinque Terre sono una breve
+       gita; la stazione e il centro storico sono a pochi minuti a piedi.</p>
+    <div class="addr reveal">
+      <div>
+        <span class="addr__lbl">Indirizzo</span>
+        <p>Viale Rimembranza 15<br/>16039 Sestri Levante (GE)</p>
+      </div>
+      <div>
+        <span class="addr__lbl">Come arrivare</span>
+        <p>In treno, linea Genova&ndash;La Spezia.<br/>In auto, A12 uscita Sestri Levante.</p>
+      </div>
+    </div>
+    <a class="link-underline reveal" target="_blank" rel="noopener"
+       href="https://www.google.com/maps/search/?api=1&query=Hotel+Mira+Viale+Rimembranza+15+Sestri+Levante">
+      Apri in Google Maps &#8594;</a>
+  </div>
+  <div class="sestri__map reveal-img">
+    <iframe
+      title="Mappa Hotel Mira, Sestri Levante"
+      src="https://www.google.com/maps?q=Viale%20Rimembranza%2015,%2016039%20Sestri%20Levante%20GE&output=embed"
+      loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
+
+<!-- ============ PRENOTA ============ -->
+<section class="prenota" id="prenota">
+  <div class="prenota__head">
+    <p class="sec__kicker sec__kicker--light reveal">Richiesta di preventivo</p>
+    <h2 class="prenota__title reveal">Progettiamo<br/>il vostro soggiorno</h2>
+    <p class="prenota__sub reveal">Inviateci le date e i dettagli: vi risponderemo personalmente
+       con la migliore proposta disponibile.</p>
+  </div>
+
+  <form class="form" id="bookingForm" novalidate>
+    <div class="form__grid">
+      <div class="field">
+        <label for="nome">Nome e cognome *</label>
+        <input type="text" id="nome" name="nome" required autocomplete="name" />
+      </div>
+      <div class="field">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required autocomplete="email" />
+      </div>
+      <div class="field">
+        <label for="telefono">Telefono</label>
+        <input type="tel" id="telefono" name="telefono" autocomplete="tel" />
+      </div>
+      <div class="field">
+        <label for="ospiti">Ospiti</label>
+        <input type="number" id="ospiti" name="ospiti" min="1" max="20" value="2" />
+      </div>
+      <div class="field">
+        <label for="arrivo">Arrivo</label>
+        <input type="date" id="arrivo" name="arrivo" />
+      </div>
+      <div class="field">
+        <label for="partenza">Partenza</label>
+        <input type="date" id="partenza" name="partenza" />
+      </div>
+      <div class="field field--full">
+        <label for="camera">Tipologia</label>
+        <select id="camera" name="camera">
+          <option value="Camera vista mare">Camera vista mare</option>
+          <option value="Camera vista borgo">Camera vista borgo</option>
+          <option value="Solo ristorante">Solo ristorante</option>
+          <option value="Non so ancora">Non so ancora</option>
+        </select>
+      </div>
+      <div class="field field--full">
+        <label for="messaggio">Messaggio</label>
+        <textarea id="messaggio" name="messaggio" rows="4"
+          placeholder="Raccontateci cosa cercate per il vostro soggiorno…"></textarea>
+      </div>
+    </div>
+
+    <label class="check">
+      <input type="checkbox" id="privacy" required />
+      <span>Ho letto e accetto il trattamento dei dati per rispondere alla richiesta.</span>
+    </label>
+
+    <button type="submit" class="btn btn--solid btn--wide" id="submitBtn">Invia la richiesta</button>
+    <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+  </form>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer" id="contatti">
+  <div class="footer__top">
+    <div class="footer__brand">
+      <img src="assets/logo-circle.png" alt="Hotel Ristorante Mira" class="footer__mark" />
+      <p class="footer__claim">Il mare della Liguria,<br/>dal cuore di Sestri Levante.</p>
+    </div>
+    <div class="footer__col">
+      <h3>Contatti</h3>
+      <p><a href="tel:+390185459404">+39 0185 459404</a></p>
+      <p><a href="tel:+39018541576">+39 0185 41576</a></p>
+      <p><a href="mailto:info@hotelmira.com">info@hotelmira.com</a></p>
+    </div>
+    <div class="footer__col">
+      <h3>Indirizzo</h3>
+      <p>Viale Rimembranza 15<br/>16039 Sestri Levante (GE)<br/>Liguria · Italia</p>
+    </div>
+    <div class="footer__col">
+      <h3>Naviga</h3>
+      <p><a href="#hotel">L'Albergo</a></p>
+      <p><a href="#ristorante">Il Ristorante</a></p>
+      <p><a href="#storia">La Storia</a></p>
+      <p><a href="#prenota">Preventivo</a></p>
+    </div>
+  </div>
+  <div class="footer__bar">
+    <span>© <span id="year"></span> Ristorante Hotel Bar Mira S.n.c. di Solari &amp; Lanzi</span>
+    <span>P.IVA 00167360999 · C.F. 00379010101</span>
+  </div>
+</footer>
+
+<a href="#top" class="to-top" id="toTop" aria-label="Torna su">&#10022;</a>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/supabase-config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
